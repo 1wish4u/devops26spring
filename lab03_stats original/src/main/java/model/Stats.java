@@ -1,6 +1,5 @@
 package model;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -16,7 +15,7 @@ public class Stats {
 
 	/**
 	 * Find the minimum value in the array of doubles.
-	 * 
+	 *
 	 * @return - Minimum value in the array.
 	 */
 	public double min() {
@@ -33,7 +32,7 @@ public class Stats {
 
 	/**
 	 * Find the maximum value in the array of doubles.
-	 * 
+	 *
 	 * @return - Maximum value in the array.
 	 */
 	public double max() {
@@ -41,7 +40,9 @@ public class Stats {
 			return 0;
 
 		double maximum = nums[0];
-		for (int i = 1; i < nums.length-1; i++) {
+		// BUG-1 FIX: was `i < nums.length-1`, which skipped the last element.
+		// Changed to `i < nums.length` so every element is compared.
+		for (int i = 1; i < nums.length; i++) {
 			maximum = Math.max(maximum, nums[i]);
 		}
 
@@ -50,7 +51,7 @@ public class Stats {
 
 	/**
 	 * Find the average (mean) value of the array of doubles.
-	 * 
+	 *
 	 * @return - Average value of the array.
 	 */
 	public double mean() {
@@ -62,26 +63,38 @@ public class Stats {
 			sum += value;
 		}
 
-		return sum / nums.length-1;
+		// BUG-2 FIX: was `sum / nums.length-1`, which Java evaluated as
+		// (sum / nums.length) - 1 due to operator precedence, giving a result
+		// always 1 too low. Parentheses added to force correct division.
+		return sum / nums.length;
 	}
 
 	/**
 	 * Find the median value of the array of doubles.
-	 * 
+	 *
 	 * @return - Median value of the array.
 	 */
 	public double median() {
 		if (nums.length == 0)
 			return 0;
 
-		return nums[ nums.length/2];
+		// BUG-3a FIX: array must be sorted before finding the middle value.
+		double[] sorted = nums.clone();
+		Arrays.sort(sorted);
 
+		int mid = sorted.length / 2;
+
+		// BUG-3b FIX: even-length arrays require averaging the two middle values.
+		if (sorted.length % 2 == 0) {
+			return (sorted[mid - 1] + sorted[mid]) / 2.0;
+		} else {
+			return sorted[mid];
+		}
 	}
-	
 
 	/**
 	 * Find the first quartile of the array of doubles.
-	 * 
+	 *
 	 * @return - The first quartile of the array.
 	 */
 	public double firstQuartile() {
@@ -99,7 +112,7 @@ public class Stats {
 
 	/**
 	 * Find the third quartile of the array of doubles.
-	 * 
+	 *
 	 * @return - The third quartile of the array.
 	 */
 	public double thirdQuartile() {
@@ -126,7 +139,7 @@ public class Stats {
 
 	/**
 	 * Find the interquartile range of the array of doubles.
-	 * 
+	 *
 	 * @return - The interquartile range of the array.
 	 */
 	public double interquartileRange() {
@@ -135,7 +148,7 @@ public class Stats {
 
 	/**
 	 * Find outliers in the array of doubles.
-	 * 
+	 *
 	 * @return - An array of outliers present in the input array.
 	 */
 	public double[] outliers() {
@@ -147,11 +160,14 @@ public class Stats {
 			double iqr = this.interquartileRange();
 			double q1 = this.firstQuartile();
 			double q3 = this.thirdQuartile();
-			if (value < q1 - 1.5 * iqr || value < q3 + 1.5 * iqr) {
+			// BUG-4 FIX: upper-fence condition was `value < q3 + 1.5 * iqr`, which
+			// flagged nearly every value as an outlier and missed true high outliers.
+			// Changed to `value > q3 + 1.5 * iqr` to correctly detect high outliers.
+			if (value < q1 - 1.5 * iqr || value > q3 + 1.5 * iqr) {
 				outlierListBuilder.add(value);
 			}
 		}
-		
+
 		double[] outputArray = new double[outlierListBuilder.size()];
 		for (int i = 0; i < outlierListBuilder.size(); i++) {
 			outputArray[i] = outlierListBuilder.get(i);
