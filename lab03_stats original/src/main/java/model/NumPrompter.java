@@ -113,3 +113,5 @@ public class NumPrompter {
    protected InputStream getIstrm() { return istrm; }
    protected PrintStream getOstrm() { return ostrm; }
 }
+
+
