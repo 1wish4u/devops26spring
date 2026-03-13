@@ -58,7 +58,7 @@ public class Reporter {
 	 * Class to create objects which contain a label for a statistic, such as the
 	 * median, and the statistic's value.
 	 */
-	private static class StatisticPair {
+	static class StatisticPair {
 		private String label;
 		private double value;
 
@@ -87,7 +87,7 @@ public class Reporter {
 	 * @param valueDecimalPlaces - The amount of decimal places to display.
 	 * @return - The resulting formatted string.
 	 */
-	private String formattedStatValuePairs(StatisticPair[] pairs, int valueDecimalPlaces) {
+	String formattedStatValuePairs(StatisticPair[] pairs, int valueDecimalPlaces) {
 		// Create two arrays of labels and their values
 		String[] statLabels = new String[pairs.length];
 		double[] values = new double[pairs.length];
@@ -153,7 +153,7 @@ public class Reporter {
 	 * @param lengthLimit - The maximum allowed length of the string.
 	 * @return - String of the array's doubles
 	 */
-	private String getNumberArrayString(double[] numberArray, int lengthLimit) {
+	String getNumberArrayString(double[] numberArray, int lengthLimit) {
 		// Build output string with a StringBuilder
 		StringBuilder outputBuilder = new StringBuilder();
 
@@ -210,5 +210,11 @@ public class Reporter {
 	
 	public void setNums(double... nums) {
 		this.nums = nums;
+	}
+
+
+	public Stats createStats(double[] ds) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
