@@ -24,7 +24,7 @@ public class Reporter {
 	 * @return - Formatted report.
 	 */
 	public String reportStatistics() {
-		Stats stats = new Stats(nums);
+		Stats stats = createStats(nums);
 
 		// Build the report with a StringBuilder
 		StringBuilder outputBuilder = new StringBuilder();
@@ -213,8 +213,7 @@ public class Reporter {
 	}
 
 
-	public Stats createStats(double[] ds) {
-		// TODO Auto-generated method stub
-		return null;
+	public Stats createStats(double[] arr) {
+	    return new Stats(arr);
 	}
 }
