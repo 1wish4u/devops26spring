@@ -136,13 +136,14 @@ public class Reporter {
 	 * @param outliers - Input outliers array.
 	 * @return - Formatted string, or message saying there are no outliers.
 	 */
-	private String outliers(double[] outliers) {
+	String outliers(double[] outliers) {
 		if (outliers.length > 0) {
 			return "Outliers: " + getNumberArrayString(outliers, 72);
 		} else {
 			return "No outliers.";
 		}
 	}
+	
 
 	/**
 	 * Get a string of the doubles inside an array, each seperated by a comma and

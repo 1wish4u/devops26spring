@@ -264,5 +264,45 @@ public class NumPrompterTest {
        doReturn(new double[]{999.99}).when(spy).getReals("");
        assertArrayEquals(new int[]{999}, spy.getInts(""));
    }
+   // -------------------------------------------------------------------------
+   // Default constructor
+   // -------------------------------------------------------------------------
+
+   @Test
+   // defaultConstructor() | Default constructor — covers the three System.in/out
+   // assignments and Scanner construction that the injection constructor bypasses.
+   void defaultConstructor_constructsWithoutError() {
+       NumPrompter np = new NumPrompter();
+       assertNotNull(np, "Default constructor must produce a non-null instance");
+       np.closeScanner(); // close the System.in scanner immediately to avoid resource leak
+   }
+
+   // -------------------------------------------------------------------------
+   // closeScanner()
+   // -------------------------------------------------------------------------
+
+   @Test
+   // closeScanner() | Happy: calling closeScanner() does not throw.
+   // Covers the scanner.close() instruction that no existing test reached.
+   void closeScanner_calledOnce_doesNotThrow() {
+       InputStream in = new ByteArrayInputStream("42\n".getBytes());
+       NumPrompter np = new NumPrompter(in, mock(PrintStream.class));
+       assertDoesNotThrow(np::closeScanner,
+               "closeScanner() must complete without throwing");
+   }
+
+   // -------------------------------------------------------------------------
+   // getIstrm()
+   // -------------------------------------------------------------------------
+
+   @Test
+   // getIstrm() | Happy: returns the exact InputStream that was injected.
+   // Covers the return-istrm instruction that is never reached in getReals().
+   void getIstrm_returnsInjectedInputStream() {
+       InputStream in = new ByteArrayInputStream(new byte[0]);
+       NumPrompter np = new NumPrompter(in, mock(PrintStream.class));
+       assertSame(in, np.getIstrm(),
+               "getIstrm() must return the same InputStream that was injected");
+   }
 }
 
