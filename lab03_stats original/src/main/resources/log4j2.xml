@@ -8,8 +8,8 @@
 
         <!-- Rolling file appender -->
         <RollingFile name="File"
-                     fileName="logs/bmi-calculator.log"
-                     filePattern="logs/bmi-calculator-%d{yyyy-MM-dd}-%i.log.gz">
+                     fileName="logs/lab03_stats_.log"
+                     filePattern="logs/lab03_stats_-%d{yyyy-MM-dd}-%i.log.gz">
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <Policies>
                 <SizeBasedTriggeringPolicy size="10MB"/>
@@ -20,7 +20,7 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="com.example.bmi" level="DEBUG" additivity="false">
+        <Logger name="model" level="DEBUG" additivity="false">
             <AppenderRef ref="Console"/>
             <AppenderRef ref="File"/>
         </Logger>

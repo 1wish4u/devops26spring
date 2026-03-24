@@ -3,14 +3,22 @@ package model;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
 /**
  * This class contains methods to perform calculations on an array of doubles.
  */
 public class Stats {
 	private double[] nums;
 
+	
+	  private static final Logger logger = LoggerFactory.getLogger(Stats.class);
+	  
 	public Stats(double... nums) {
 		this.nums = nums;
+		logger.info("Stats object created with {} values", nums.length);
 	}
 
 	/**
@@ -19,13 +27,19 @@ public class Stats {
 	 * @return - Minimum value in the array.
 	 */
 	public double min() {
-		if (nums.length == 0)
+		if (nums.length == 0) {
+			logger.warn("min() called on empty array");
 			return 0;
+
+		}
+			
 
 		double minimum = nums[0];
 		for (int i = 1; i < nums.length; i++) {
 			minimum = Math.min(minimum, nums[i]);
 		}
+		
+		logger.debug("Computed min: {}", minimum);
 
 		return minimum;
 	}
@@ -36,8 +50,10 @@ public class Stats {
 	 * @return - Maximum value in the array.
 	 */
 	public double max() {
-		if (nums.length == 0)
+		if (nums.length == 0) {
+			 logger.warn("max() called on empty array");
 			return 0;
+		}
 
 		double maximum = nums[0];
 		// BUG-1 FIX: was `i < nums.length-1`, which skipped the last element.
@@ -45,6 +61,8 @@ public class Stats {
 		for (int i = 1; i < nums.length; i++) {
 			maximum = Math.max(maximum, nums[i]);
 		}
+		
+		logger.debug("Computed max: {}", maximum);
 
 		return maximum;
 	}
@@ -55,9 +73,12 @@ public class Stats {
 	 * @return - Average value of the array.
 	 */
 	public double mean() {
-		if (nums.length == 0)
+		if (nums.length == 0) {
+			
+			logger.warn("mean() called on empty array");
 			return 0;
 
+		}
 		double sum = 0;
 		for (double value : nums) {
 			sum += value;
@@ -66,7 +87,9 @@ public class Stats {
 		// BUG-2 FIX: was `sum / nums.length-1`, which Java evaluated as
 		// (sum / nums.length) - 1 due to operator precedence, giving a result
 		// always 1 too low. Parentheses added to force correct division.
-		return sum / nums.length;
+		double result = sum / nums.length;
+		logger.debug("Computed mean: {}", result);
+		return result;
 	}
 
 	/**
@@ -75,9 +98,11 @@ public class Stats {
 	 * @return - Median value of the array.
 	 */
 	public double median() {
-		if (nums.length == 0)
+		if (nums.length == 0) {
+			logger.warn("median() called on empty array");
 			return 0;
 
+		}
 		// BUG-3a FIX: array must be sorted before finding the middle value.
 		double[] sorted = nums.clone();
 		Arrays.sort(sorted);
@@ -87,8 +112,14 @@ public class Stats {
 		// BUG-3b FIX: even-length arrays require averaging the two middle values.
 		if (sorted.length % 2 == 0) {
 			return (sorted[mid - 1] + sorted[mid]) / 2.0;
+			
+			
 		} else {
-			return sorted[mid];
+			
+			double result = sorted[mid];
+			
+			logger.debug("Computed median: {}", result);
+			return result;
 		}
 	}
 
@@ -152,18 +183,24 @@ public class Stats {
 	 * @return - An array of outliers present in the input array.
 	 */
 	public double[] outliers() {
-		if (nums.length < 2)
+		if (nums.length < 2) {
+			
+			logger.warn("outliers() called with insufficient data");
 			return new double[] {}; // A data set with one value must not have an outlier
-
+		}
 		ArrayList<Double> outlierListBuilder = new ArrayList<Double>();
+		double iqr = this.interquartileRange();
+		double q1 = this.firstQuartile();
+		double q3 = this.thirdQuartile();
+		
 		for (double value : nums) {
-			double iqr = this.interquartileRange();
-			double q1 = this.firstQuartile();
-			double q3 = this.thirdQuartile();
+		
 			// BUG-4 FIX: upper-fence condition was `value < q3 + 1.5 * iqr`, which
 			// flagged nearly every value as an outlier and missed true high outliers.
 			// Changed to `value > q3 + 1.5 * iqr` to correctly detect high outliers.
+			
 			if (value < q1 - 1.5 * iqr || value > q3 + 1.5 * iqr) {
+				logger.info("Outlier detected: {}", value);
 				outlierListBuilder.add(value);
 			}
 		}
