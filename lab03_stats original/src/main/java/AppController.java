@@ -2,6 +2,9 @@ import model.NumPrompter;
 import model.Reporter;
 import java.io.PrintStream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Controls the main application loop for the statistics calculator.
  *
@@ -20,6 +23,8 @@ public class AppController {
     private final NumPrompter prompter;
     private final PrintStream out;
 
+    private static final Logger logger = LoggerFactory.getLogger(AppController.class);
+
     /**
      * Constructs an AppController with the given input prompter and output stream.
      *
@@ -29,6 +34,7 @@ public class AppController {
     public AppController(NumPrompter prompter, PrintStream out) {
         this.prompter = prompter;
         this.out = out;
+        logger.info("AppController created");
     }
 
     /**
@@ -39,6 +45,7 @@ public class AppController {
      * (i.e., {@link NumPrompter#getReals(String)} returns an empty array).
      */
     public void run() {
+        logger.info("Application loop started");
         boolean quit = false;
 
         while (!quit) {
@@ -48,6 +55,7 @@ public class AppController {
                     quit...""");
 
             if (reals.length == 0) {
+                logger.info("No input received; exiting application loop");
                 quit = true;
                 continue;
             }
@@ -57,6 +65,7 @@ public class AppController {
 
         prompter.closeScanner();
         System.out.println("Program ended.");
+        logger.info("Application ended");
     }
 
     /**
@@ -69,6 +78,7 @@ public class AppController {
      * @return A formatted statistics report string from {@link Reporter#reportStatistics()}.
      */
     String processInput(double[] reals) {
+        logger.debug("Processing input of {} value(s)", reals.length);
         Reporter reporter = createReporter();
         reporter.setNums(reals);
         return reporter.reportStatistics();
@@ -78,7 +88,7 @@ public class AppController {
      * Creates and returns a new {@link Reporter} instance.
      *
      * <p>Extracted as a factory method so it can be stubbed in tests via a
-     * Mockito spy, decoupling {@link #processInput(double[])} from the real
+     * __Mockito__ spy, decoupling {@link #processInput(double[])} from the real
      * {@link Reporter} implementation.
      *
      * @return A new {@link Reporter}.

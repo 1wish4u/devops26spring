@@ -3,6 +3,10 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
 * This class prompts the user for non-negative integers or doubles, and creates
 * an array with those values. Filters out and is compatible with any separator
@@ -13,11 +17,16 @@ public class NumPrompter {
    private InputStream istrm;
    private PrintStream ostrm;
    private Scanner scanner;
+
+   private static final Logger logger = LoggerFactory.getLogger(NumPrompter.class);
+
    public NumPrompter() {
        istrm   = System.in;
        ostrm   = System.out;
        scanner = new Scanner(this.istrm);
+       logger.info("NumPrompter created with System.in / System.out");
    }
+
    /**
     * Package-private constructor for testing.
     * Accepts explicit InputStream and PrintStream so tests can inject a
@@ -31,7 +40,9 @@ public class NumPrompter {
        this.istrm   = istrm;
        this.ostrm   = ostrm;
        this.scanner = new Scanner(istrm);
+       logger.info("NumPrompter created with injected streams");
    }
+
    /**
     * Prompts the user for integers with a message, and returns an array.
     * Decimals are seen but truncated (via floor), because this method uses getReals.
@@ -40,13 +51,16 @@ public class NumPrompter {
     * @return Array of integers created from the user's input.
     */
    public int[] getInts(String message) {
+       logger.debug("getInts() called");
        double[] reals = getReals(message);
        int[]    ints  = new int[reals.length];
        for (int i = 0; i < reals.length; i++) {
            ints[i] = (int) Math.floor(reals[i]);
        }
+       logger.debug("getInts() returning {} value(s)", ints.length);
        return ints;
    }
+
    /**
     * Prompts the user for numbers with a message, and returns an array.
     *
@@ -54,19 +68,25 @@ public class NumPrompter {
     * @return Array of doubles created from the user's input.
     */
    public double[] getReals(String message) {
+       logger.debug("getReals() called");
+
        // Print message only if non-empty
        if (message.length() > 0) {
            getOstrm().println(message);
        }
+
        String userString = "";
        if (scanner.hasNextLine()) {
            userString = scanner.nextLine();
        } else {
+           logger.warn("getReals() found no input; returning empty array");
            return new double[]{};
        }
+
        StringBuilder         currentValue      = new StringBuilder();
        ArrayList<Double>     numberListBuilder = new ArrayList<Double>();
        boolean               hasDecimalPoint   = false;
+
        for (int i = 0; i < userString.length(); i++) {
            char currentChar = userString.charAt(i);
            if (Character.isDigit(currentChar)) {
@@ -91,6 +111,7 @@ public class NumPrompter {
                hasDecimalPoint = false;
            }
        }
+
        // Flush the last value if the string ended without a trailing separator
        if (currentValue.length() > 0) {
            String valueStr = currentValue.toString();
@@ -101,17 +122,21 @@ public class NumPrompter {
                numberListBuilder.add(Double.parseDouble(valueStr));
            }
        }
+
        double[] numbers = new double[numberListBuilder.size()];
        for (int i = 0; i < numberListBuilder.size(); i++) {
            numbers[i] = numberListBuilder.get(i);
        }
+
+       logger.debug("getReals() parsed {} value(s) from input", numbers.length);
        return numbers;
    }
+
    public void closeScanner() {
+       logger.info("Closing scanner");
        scanner.close();
    }
+
    protected InputStream getIstrm() { return istrm; }
    protected PrintStream getOstrm() { return ostrm; }
 }
-
-

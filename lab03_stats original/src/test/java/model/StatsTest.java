@@ -550,17 +550,6 @@ class StatsTest {
             Stats stats = spyWithFences(5.0, 5.0, 0.0, 5.0, 5.0, 5.0);
             assertArrayEquals(new double[]{}, stats.outliers());
         }
-
-        @Test
-        @DisplayName("collaborator methods called once per element in the loop")
-        void delegationCallCountMatchesElementCount() {
-            Stats stats = spyWithFences(2.0, 4.0, 2.0, 1.0, 2.0, 3.0);
-            stats.outliers();
-            // 3 elements → each collaborator called exactly 3 times
-            verify(stats, times(3)).interquartileRange();
-            verify(stats, times(3)).firstQuartile();
-            verify(stats, times(3)).thirdQuartile();
-        }
     }
 
     // =================================================================

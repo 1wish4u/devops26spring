@@ -82,3 +82,1016 @@
 2026-03-23 23:49:43.262 [main] DEBUG model.Stats - Computed mean: 20.0
 2026-03-23 23:49:43.263 [main] DEBUG model.Stats - Computed median: 20.0
 2026-03-23 23:49:43.278 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:39:44.498 [main] INFO  model.NumPrompter - NumPrompter created with System.in / System.out
+2026-03-24 19:39:44.501 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:56.733 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.742 [main] DEBUG model.Reporter - Generating statistics report for 1 values
+2026-03-24 19:39:56.743 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.743 [main] DEBUG model.Stats - Computed min: 42.0
+2026-03-24 19:39:56.744 [main] DEBUG model.Stats - Computed max: 42.0
+2026-03-24 19:39:56.744 [main] DEBUG model.Stats - Computed mean: 42.0
+2026-03-24 19:39:56.744 [main] DEBUG model.Stats - Computed median: 42.0
+2026-03-24 19:39:56.745 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.749 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:39:56.749 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.749 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.767 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.767 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:56.767 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.768 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:39:56.768 [main] DEBUG model.Stats - Computed max: 3.0
+2026-03-24 19:39:56.768 [main] DEBUG model.Stats - Computed mean: 2.0
+2026-03-24 19:39:56.768 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:39:56.768 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.768 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.768 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.768 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.768 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.769 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.769 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.769 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.769 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.770 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.770 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.770 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.770 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.770 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.770 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.770 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.770 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.771 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.771 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.850 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.861 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.862 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:56.862 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.862 [main] DEBUG model.Stats - Computed min: 10.0
+2026-03-24 19:39:56.862 [main] DEBUG model.Stats - Computed max: 30.0
+2026-03-24 19:39:56.863 [main] DEBUG model.Stats - Computed mean: 20.0
+2026-03-24 19:39:56.863 [main] DEBUG model.Stats - Computed median: 20.0
+2026-03-24 19:39:56.863 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.863 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:39:56.863 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.864 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:39:56.864 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.864 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:39:56.864 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.864 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:39:56.864 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.865 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.865 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:39:56.865 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.866 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:39:56.866 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.866 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:39:56.866 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.866 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:39:56.866 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.867 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.870 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.870 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:39:56.870 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.871 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:39:56.871 [main] DEBUG model.Stats - Computed max: 2.0
+2026-03-24 19:39:56.871 [main] DEBUG model.Stats - Computed mean: 1.5
+2026-03-24 19:39:56.871 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.871 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.871 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.871 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:39:56.871 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.871 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:39:56.871 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.872 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.872 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.872 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.872 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:39:56.872 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.872 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.872 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.873 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.873 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.873 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:39:56.873 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.873 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.874 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.874 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:39:56.874 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.874 [main] DEBUG model.Stats - Computed min: 3.0
+2026-03-24 19:39:56.874 [main] DEBUG model.Stats - Computed max: 4.0
+2026-03-24 19:39:56.874 [main] DEBUG model.Stats - Computed mean: 3.5
+2026-03-24 19:39:56.874 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.874 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.875 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.875 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:39:56.875 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.875 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:39:56.875 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.875 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.875 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.876 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.876 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:39:56.876 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.876 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.876 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.876 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.876 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.876 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:39:56.876 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.876 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.877 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.877 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:39:56.877 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.877 [main] DEBUG model.Stats - Computed min: 5.0
+2026-03-24 19:39:56.877 [main] DEBUG model.Stats - Computed max: 6.0
+2026-03-24 19:39:56.878 [main] DEBUG model.Stats - Computed mean: 5.5
+2026-03-24 19:39:56.878 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.878 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:39:56.878 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.878 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:39:56.878 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.878 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:39:56.878 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.878 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:39:56.879 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.879 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.879 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:39:56.879 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.879 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:39:56.879 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.879 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:39:56.879 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.879 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:39:56.880 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.880 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.882 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.882 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:56.882 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed min: 7.0
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed max: 9.0
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed mean: 8.0
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed median: 8.0
+2026-03-24 19:39:56.883 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:39:56.883 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:39:56.883 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.883 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:39:56.884 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.884 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:39:56.884 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.884 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.884 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:39:56.885 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.885 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:39:56.885 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.885 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:39:56.885 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.885 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:39:56.886 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.886 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.888 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:56.888 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:56.888 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.888 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:39:56.888 [main] DEBUG model.Stats - Computed max: 3.0
+2026-03-24 19:39:56.889 [main] DEBUG model.Stats - Computed mean: 2.0
+2026-03-24 19:39:56.889 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:39:56.889 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.889 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.889 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.889 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.889 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.889 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.889 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.889 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.890 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:56.890 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.890 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.890 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.890 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.890 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.890 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:39:56.890 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.890 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.891 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:56.891 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:56.905 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:56.905 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.906 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.906 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.907 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.907 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.908 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.909 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.911 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.911 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.911 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.913 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.936 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.937 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.939 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.942 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.943 [main] DEBUG model.Stats - Computed max: 7.0
+2026-03-24 19:39:56.944 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:56.944 [main] WARN  model.Stats - max() called on empty array
+2026-03-24 19:39:56.944 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.944 [main] DEBUG model.Stats - Computed max: 5.0
+2026-03-24 19:39:56.945 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.945 [main] DEBUG model.Stats - Computed max: 8.0
+2026-03-24 19:39:56.946 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.946 [main] DEBUG model.Stats - Computed max: 9.0
+2026-03-24 19:39:56.947 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.947 [main] DEBUG model.Stats - Computed max: 7.0
+2026-03-24 19:39:56.948 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.948 [main] DEBUG model.Stats - Computed max: 10.0
+2026-03-24 19:39:56.949 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.949 [main] DEBUG model.Stats - Computed max: 6.0
+2026-03-24 19:39:56.951 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:56.951 [main] WARN  model.Stats - mean() called on empty array
+2026-03-24 19:39:56.952 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.952 [main] DEBUG model.Stats - Computed mean: 5.0
+2026-03-24 19:39:56.953 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.953 [main] DEBUG model.Stats - Computed mean: 6.0
+2026-03-24 19:39:56.954 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.954 [main] DEBUG model.Stats - Computed mean: 3.0
+2026-03-24 19:39:56.955 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.955 [main] DEBUG model.Stats - Computed mean: 1.5
+2026-03-24 19:39:56.956 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.956 [main] DEBUG model.Stats - Computed mean: 4.0
+2026-03-24 19:39:56.957 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.957 [main] DEBUG model.Stats - Computed mean: 0.0
+2026-03-24 19:39:56.959 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.959 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:39:56.960 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:56.960 [main] WARN  model.Stats - median() called on empty array
+2026-03-24 19:39:56.960 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.961 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.962 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.962 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.963 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.963 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.963 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:39:56.964 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.964 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:39:56.966 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.966 [main] DEBUG model.Stats - Computed min: 0.0
+2026-03-24 19:39:56.967 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.967 [main] DEBUG model.Stats - Computed min: 2.0
+2026-03-24 19:39:56.968 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:56.968 [main] WARN  model.Stats - min() called on empty array
+2026-03-24 19:39:56.969 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.969 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:39:56.970 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:56.970 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:39:56.971 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:56.971 [main] DEBUG model.Stats - Computed min: 3.0
+2026-03-24 19:39:56.972 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:56.972 [main] DEBUG model.Stats - Computed min: 4.0
+2026-03-24 19:39:56.972 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.972 [main] DEBUG model.Stats - Computed min: 7.0
+2026-03-24 19:39:56.975 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.977 [main] INFO  model.Stats - Outlier detected: -5.0
+2026-03-24 19:39:56.977 [main] INFO  model.Stats - Outlier detected: 50.0
+2026-03-24 19:39:56.980 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.984 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.986 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.987 [main] INFO  model.Stats - Outlier detected: -10.0
+2026-03-24 19:39:56.988 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:56.988 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:39:56.989 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:56.990 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:57.007 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:57.008 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:39:57.008 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:57.009 [main] INFO  model.Stats - Outlier detected: 100.0
+2026-03-24 19:39:57.010 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:57.012 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:57.012 [main] WARN  model.Stats - min() called on empty array
+2026-03-24 19:39:57.013 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:57.013 [main] DEBUG model.Stats - Computed max: 30.0
+2026-03-24 19:39:57.014 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:57.014 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:39:57.015 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:57.016 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:57.016 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:39:57.016 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:57.017 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:57.017 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:57.018 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:57.018 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:39:57.018 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:39:57.018 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:39:57.018 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:39:57.020 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.020 [main] DEBUG model.Reporter - Formatting 1 statistic pairs with 2 decimal places
+2026-03-24 19:39:57.021 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.021 [main] INFO  model.Reporter - Report includes 12 outlier(s)
+2026-03-24 19:39:57.021 [main] DEBUG model.Reporter - Array string truncated: 6 values omitted
+2026-03-24 19:39:57.022 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.022 [main] DEBUG model.Reporter - Formatting 3 statistic pairs with 2 decimal places
+2026-03-24 19:39:57.023 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.023 [main] INFO  model.Reporter - Report includes 3 outlier(s)
+2026-03-24 19:39:57.023 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.023 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:39:57.024 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.024 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.024 [main] DEBUG model.Reporter - Array string truncated: 3 values omitted
+2026-03-24 19:39:57.025 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.025 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.025 [main] DEBUG model.Reporter - Formatting 2 statistic pairs with 2 decimal places
+2026-03-24 19:39:57.026 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.028 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:57.029 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:57.030 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:57.030 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:57.031 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.031 [main] INFO  model.Reporter - Report includes 1 outlier(s)
+2026-03-24 19:39:57.032 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.033 [main] DEBUG model.Reporter - Generating statistics report for 0 values
+2026-03-24 19:39:57.034 [main] WARN  model.Reporter - getNumberArrayString() called on empty array
+2026-03-24 19:39:57.034 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:57.034 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:57.035 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:57.035 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.035 [main] DEBUG model.Reporter - Formatting 2 statistic pairs with 2 decimal places
+2026-03-24 19:39:57.037 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.038 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.038 [main] WARN  model.Reporter - getNumberArrayString() called on empty array
+2026-03-24 19:39:57.039 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.039 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.039 [main] DEBUG model.Reporter - Formatting 1 statistic pairs with 2 decimal places
+2026-03-24 19:39:57.040 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.041 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:57.042 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:57.042 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:57.042 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:57.043 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.044 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:39:57.045 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:57.045 [main] INFO  model.Reporter - Report includes 1 outlier(s)
+2026-03-24 19:39:57.045 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:57.046 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.046 [main] INFO  model.Reporter - Report includes 1 outlier(s)
+2026-03-24 19:39:57.048 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.049 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:39:57.050 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:39:57.050 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:57.050 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:39:57.051 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.054 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.054 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:39:57.054 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.054 [main] DEBUG model.Reporter - Formatting 1 statistic pairs with 4 decimal places
+2026-03-24 19:39:57.055 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.055 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:39:57.055 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.055 [main] DEBUG model.Reporter - Formatting 3 statistic pairs with 2 decimal places
+2026-03-24 19:39:57.056 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:39:57.056 [main] DEBUG model.Reporter - Array string truncated: 4 values omitted
+2026-03-24 19:39:57.061 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.062 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.063 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.064 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.064 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.065 [main] DEBUG model.NumPrompter - getReals() parsed 2 value(s) from input
+2026-03-24 19:39:57.065 [main] INFO  model.NumPrompter - NumPrompter created with System.in / System.out
+2026-03-24 19:39:57.065 [main] INFO  model.NumPrompter - Closing scanner
+2026-03-24 19:39:57.066 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.067 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:39:57.067 [main] DEBUG model.NumPrompter - getInts() returning 1 value(s)
+2026-03-24 19:39:57.068 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.068 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:39:57.068 [main] DEBUG model.NumPrompter - getInts() returning 3 value(s)
+2026-03-24 19:39:57.069 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.069 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.070 [main] WARN  model.NumPrompter - getReals() found no input; returning empty array
+2026-03-24 19:39:57.070 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.071 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:39:57.071 [main] DEBUG model.NumPrompter - getInts() returning 0 value(s)
+2026-03-24 19:39:57.072 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.072 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.072 [main] DEBUG model.NumPrompter - getReals() parsed 0 value(s) from input
+2026-03-24 19:39:57.073 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.075 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.075 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:39:57.075 [main] DEBUG model.NumPrompter - getInts() returning 1 value(s)
+2026-03-24 19:39:57.076 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.077 [main] INFO  model.NumPrompter - Closing scanner
+2026-03-24 19:39:57.078 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.078 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.078 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.079 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.079 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.079 [main] DEBUG model.NumPrompter - getReals() parsed 0 value(s) from input
+2026-03-24 19:39:57.080 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.080 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.080 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:39:57.081 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.081 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.081 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.082 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.082 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.082 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.083 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.083 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.083 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.084 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.084 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.084 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:39:57.085 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.085 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.085 [main] DEBUG model.NumPrompter - getReals() parsed 2 value(s) from input
+2026-03-24 19:39:57.086 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.086 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.086 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:39:57.087 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.088 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:39:57.088 [main] DEBUG model.NumPrompter - getInts() returning 2 value(s)
+2026-03-24 19:39:57.088 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.089 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.089 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.089 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.089 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.090 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:39:57.090 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.090 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.091 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.092 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.092 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.092 [main] DEBUG model.NumPrompter - getReals() parsed 2 value(s) from input
+2026-03-24 19:39:57.093 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.093 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.093 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.094 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.094 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.094 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.095 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.095 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.095 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.096 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.096 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:39:57.097 [main] DEBUG model.NumPrompter - getInts() returning 1 value(s)
+2026-03-24 19:39:57.098 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.098 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.098 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:39:57.099 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:39:57.099 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:39:57.100 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:43:12.722 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:12.732 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:12.732 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:12.733 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:12.734 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:12.734 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:12.734 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:12.735 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:12.735 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:12.736 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:12.736 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:12.738 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.396 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.411 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.415 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.421 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.421 [main] DEBUG model.Stats - Computed max: 7.0
+2026-03-24 19:43:13.422 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:13.423 [main] WARN  model.Stats - max() called on empty array
+2026-03-24 19:43:13.424 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.424 [main] DEBUG model.Stats - Computed max: 5.0
+2026-03-24 19:43:13.425 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.426 [main] DEBUG model.Stats - Computed max: 8.0
+2026-03-24 19:43:13.427 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.427 [main] DEBUG model.Stats - Computed max: 9.0
+2026-03-24 19:43:13.428 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.428 [main] DEBUG model.Stats - Computed max: 7.0
+2026-03-24 19:43:13.429 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.430 [main] DEBUG model.Stats - Computed max: 10.0
+2026-03-24 19:43:13.431 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.431 [main] DEBUG model.Stats - Computed max: 6.0
+2026-03-24 19:43:13.433 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:13.434 [main] WARN  model.Stats - mean() called on empty array
+2026-03-24 19:43:13.435 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.435 [main] DEBUG model.Stats - Computed mean: 5.0
+2026-03-24 19:43:13.436 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.436 [main] DEBUG model.Stats - Computed mean: 6.0
+2026-03-24 19:43:13.437 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.437 [main] DEBUG model.Stats - Computed mean: 3.0
+2026-03-24 19:43:13.439 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.439 [main] DEBUG model.Stats - Computed mean: 1.5
+2026-03-24 19:43:13.440 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.440 [main] DEBUG model.Stats - Computed mean: 4.0
+2026-03-24 19:43:13.441 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.441 [main] DEBUG model.Stats - Computed mean: 0.0
+2026-03-24 19:43:13.443 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.444 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:43:13.444 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:13.444 [main] WARN  model.Stats - median() called on empty array
+2026-03-24 19:43:13.445 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.446 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.447 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.447 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:13.448 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.449 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.449 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:43:13.450 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.450 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:13.453 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.453 [main] DEBUG model.Stats - Computed min: 0.0
+2026-03-24 19:43:13.454 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.455 [main] DEBUG model.Stats - Computed min: 2.0
+2026-03-24 19:43:13.455 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:13.455 [main] WARN  model.Stats - min() called on empty array
+2026-03-24 19:43:13.456 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.456 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:13.457 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.457 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:13.458 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.458 [main] DEBUG model.Stats - Computed min: 3.0
+2026-03-24 19:43:13.459 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.459 [main] DEBUG model.Stats - Computed min: 4.0
+2026-03-24 19:43:13.460 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.461 [main] DEBUG model.Stats - Computed min: 7.0
+2026-03-24 19:43:13.463 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.465 [main] INFO  model.Stats - Outlier detected: -5.0
+2026-03-24 19:43:13.465 [main] INFO  model.Stats - Outlier detected: 50.0
+2026-03-24 19:43:13.468 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.474 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.477 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.478 [main] INFO  model.Stats - Outlier detected: -10.0
+2026-03-24 19:43:13.479 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.479 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:43:13.480 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.482 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:13.482 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:43:13.483 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.484 [main] INFO  model.Stats - Outlier detected: 100.0
+2026-03-24 19:43:13.486 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.489 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.489 [main] WARN  model.Stats - min() called on empty array
+2026-03-24 19:43:13.490 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.490 [main] DEBUG model.Stats - Computed max: 30.0
+2026-03-24 19:43:13.490 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:13.491 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:13.493 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:13.494 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.495 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:13.495 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.496 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.496 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.498 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:13.498 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:13.499 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:43:13.499 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:13.500 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.604 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.610 [main] DEBUG model.Reporter - Generating statistics report for 1 values
+2026-03-24 19:43:31.610 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.611 [main] DEBUG model.Stats - Computed min: 42.0
+2026-03-24 19:43:31.611 [main] DEBUG model.Stats - Computed max: 42.0
+2026-03-24 19:43:31.611 [main] DEBUG model.Stats - Computed mean: 42.0
+2026-03-24 19:43:31.611 [main] DEBUG model.Stats - Computed median: 42.0
+2026-03-24 19:43:31.613 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.617 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:43:31.617 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.617 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.630 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.630 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.630 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.630 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:31.630 [main] DEBUG model.Stats - Computed max: 3.0
+2026-03-24 19:43:31.630 [main] DEBUG model.Stats - Computed mean: 2.0
+2026-03-24 19:43:31.630 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:43:31.631 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.631 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.631 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.631 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.631 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.631 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.631 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.631 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.632 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.632 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.632 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.632 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.633 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.633 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.633 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.633 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.633 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.633 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.633 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.695 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.705 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.705 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.705 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.706 [main] DEBUG model.Stats - Computed min: 10.0
+2026-03-24 19:43:31.706 [main] DEBUG model.Stats - Computed max: 30.0
+2026-03-24 19:43:31.706 [main] DEBUG model.Stats - Computed mean: 20.0
+2026-03-24 19:43:31.706 [main] DEBUG model.Stats - Computed median: 20.0
+2026-03-24 19:43:31.706 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.706 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:43:31.706 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.706 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:43:31.706 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.707 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:43:31.707 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.707 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:43:31.707 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.708 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.708 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:43:31.708 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.708 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:43:31.708 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.708 [main] DEBUG model.Stats - Computed median: 10.0
+2026-03-24 19:43:31.709 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.709 [main] DEBUG model.Stats - Computed median: 30.0
+2026-03-24 19:43:31.709 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.709 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.713 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.713 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:43:31.713 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.713 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:31.713 [main] DEBUG model.Stats - Computed max: 2.0
+2026-03-24 19:43:31.713 [main] DEBUG model.Stats - Computed mean: 1.5
+2026-03-24 19:43:31.713 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.714 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.714 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.714 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:43:31.714 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.714 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:43:31.714 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.714 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.714 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.715 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.715 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:43:31.715 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.715 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.715 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.715 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.715 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.716 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:43:31.716 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.716 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.716 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.717 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:43:31.717 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.717 [main] DEBUG model.Stats - Computed min: 3.0
+2026-03-24 19:43:31.717 [main] DEBUG model.Stats - Computed max: 4.0
+2026-03-24 19:43:31.717 [main] DEBUG model.Stats - Computed mean: 3.5
+2026-03-24 19:43:31.717 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.717 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.717 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.717 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:43:31.718 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.718 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:43:31.718 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.718 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.718 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.719 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.719 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:43:31.719 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.719 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.719 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.720 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.720 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.720 [main] DEBUG model.Stats - Computed median: 4.0
+2026-03-24 19:43:31.720 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.720 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.720 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.720 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:43:31.720 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.721 [main] DEBUG model.Stats - Computed min: 5.0
+2026-03-24 19:43:31.721 [main] DEBUG model.Stats - Computed max: 6.0
+2026-03-24 19:43:31.721 [main] DEBUG model.Stats - Computed mean: 5.5
+2026-03-24 19:43:31.721 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.721 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:43:31.721 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.721 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:43:31.721 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.721 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:43:31.722 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.722 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:43:31.722 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.722 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.722 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:43:31.722 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.722 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:43:31.723 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.723 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:43:31.723 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.723 [main] DEBUG model.Stats - Computed median: 6.0
+2026-03-24 19:43:31.723 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.723 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.725 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.726 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.726 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.726 [main] DEBUG model.Stats - Computed min: 7.0
+2026-03-24 19:43:31.726 [main] DEBUG model.Stats - Computed max: 9.0
+2026-03-24 19:43:31.726 [main] DEBUG model.Stats - Computed mean: 8.0
+2026-03-24 19:43:31.726 [main] DEBUG model.Stats - Computed median: 8.0
+2026-03-24 19:43:31.726 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.726 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:43:31.726 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.727 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:43:31.727 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.727 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:43:31.727 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.727 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:43:31.727 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.727 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.727 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:43:31.728 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.728 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:43:31.728 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.728 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:43:31.728 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.728 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:43:31.728 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.728 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.730 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.730 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.730 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.730 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:31.730 [main] DEBUG model.Stats - Computed max: 3.0
+2026-03-24 19:43:31.730 [main] DEBUG model.Stats - Computed mean: 2.0
+2026-03-24 19:43:31.730 [main] DEBUG model.Stats - Computed median: 2.0
+2026-03-24 19:43:31.730 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.730 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.731 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.731 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.731 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.731 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.731 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.731 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.731 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.732 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.732 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.732 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.732 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.732 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.732 [main] DEBUG model.Stats - Computed median: 1.0
+2026-03-24 19:43:31.732 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.732 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.733 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.733 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.748 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.749 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.749 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.750 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.750 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.750 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.751 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.751 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.752 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.752 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.752 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.754 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.775 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.776 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.779 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.781 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.781 [main] DEBUG model.Stats - Computed max: 7.0
+2026-03-24 19:43:31.782 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.782 [main] WARN  model.Stats - max() called on empty array
+2026-03-24 19:43:31.783 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.783 [main] DEBUG model.Stats - Computed max: 5.0
+2026-03-24 19:43:31.784 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.784 [main] DEBUG model.Stats - Computed max: 8.0
+2026-03-24 19:43:31.785 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.785 [main] DEBUG model.Stats - Computed max: 9.0
+2026-03-24 19:43:31.785 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.785 [main] DEBUG model.Stats - Computed max: 7.0
+2026-03-24 19:43:31.786 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.786 [main] DEBUG model.Stats - Computed max: 10.0
+2026-03-24 19:43:31.787 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.787 [main] DEBUG model.Stats - Computed max: 6.0
+2026-03-24 19:43:31.789 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.789 [main] WARN  model.Stats - mean() called on empty array
+2026-03-24 19:43:31.790 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.790 [main] DEBUG model.Stats - Computed mean: 5.0
+2026-03-24 19:43:31.790 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.791 [main] DEBUG model.Stats - Computed mean: 6.0
+2026-03-24 19:43:31.791 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.791 [main] DEBUG model.Stats - Computed mean: 3.0
+2026-03-24 19:43:31.792 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.792 [main] DEBUG model.Stats - Computed mean: 1.5
+2026-03-24 19:43:31.793 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.793 [main] DEBUG model.Stats - Computed mean: 4.0
+2026-03-24 19:43:31.793 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.794 [main] DEBUG model.Stats - Computed mean: 0.0
+2026-03-24 19:43:31.795 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.795 [main] DEBUG model.Stats - Computed median: 5.0
+2026-03-24 19:43:31.796 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.796 [main] WARN  model.Stats - median() called on empty array
+2026-03-24 19:43:31.797 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.797 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.798 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.798 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.799 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.799 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.799 [main] DEBUG model.Stats - Computed median: 9.0
+2026-03-24 19:43:31.800 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.800 [main] DEBUG model.Stats - Computed median: 3.0
+2026-03-24 19:43:31.801 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.802 [main] DEBUG model.Stats - Computed min: 0.0
+2026-03-24 19:43:31.802 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.802 [main] DEBUG model.Stats - Computed min: 2.0
+2026-03-24 19:43:31.803 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.803 [main] WARN  model.Stats - min() called on empty array
+2026-03-24 19:43:31.804 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.804 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:31.804 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.805 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:31.805 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.805 [main] DEBUG model.Stats - Computed min: 3.0
+2026-03-24 19:43:31.806 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.806 [main] DEBUG model.Stats - Computed min: 4.0
+2026-03-24 19:43:31.806 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.807 [main] DEBUG model.Stats - Computed min: 7.0
+2026-03-24 19:43:31.808 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.809 [main] INFO  model.Stats - Outlier detected: -5.0
+2026-03-24 19:43:31.809 [main] INFO  model.Stats - Outlier detected: 50.0
+2026-03-24 19:43:31.811 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.814 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.815 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.816 [main] INFO  model.Stats - Outlier detected: -10.0
+2026-03-24 19:43:31.817 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.817 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:43:31.818 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.820 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.820 [main] WARN  model.Stats - outliers() called with insufficient data
+2026-03-24 19:43:31.821 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.822 [main] INFO  model.Stats - Outlier detected: 100.0
+2026-03-24 19:43:31.823 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.825 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.825 [main] WARN  model.Stats - min() called on empty array
+2026-03-24 19:43:31.826 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.826 [main] DEBUG model.Stats - Computed max: 30.0
+2026-03-24 19:43:31.827 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.827 [main] DEBUG model.Stats - Computed min: 1.0
+2026-03-24 19:43:31.828 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.829 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.829 [main] INFO  model.Stats - Stats object created with 4 values
+2026-03-24 19:43:31.829 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.830 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.830 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.831 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.831 [main] INFO  model.Stats - Stats object created with 1 values
+2026-03-24 19:43:31.831 [main] DEBUG model.Stats - Computed median: 7.0
+2026-03-24 19:43:31.831 [main] INFO  model.Stats - Stats object created with 5 values
+2026-03-24 19:43:31.831 [main] INFO  model.Stats - Stats object created with 2 values
+2026-03-24 19:43:31.833 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.833 [main] DEBUG model.Reporter - Formatting 1 statistic pairs with 2 decimal places
+2026-03-24 19:43:31.834 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.834 [main] INFO  model.Reporter - Report includes 12 outlier(s)
+2026-03-24 19:43:31.834 [main] DEBUG model.Reporter - Array string truncated: 6 values omitted
+2026-03-24 19:43:31.835 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.835 [main] DEBUG model.Reporter - Formatting 3 statistic pairs with 2 decimal places
+2026-03-24 19:43:31.836 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.836 [main] INFO  model.Reporter - Report includes 3 outlier(s)
+2026-03-24 19:43:31.836 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.836 [main] INFO  model.Stats - Stats object created with 3 values
+2026-03-24 19:43:31.837 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.838 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.838 [main] DEBUG model.Reporter - Array string truncated: 3 values omitted
+2026-03-24 19:43:31.839 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.839 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.839 [main] DEBUG model.Reporter - Formatting 2 statistic pairs with 2 decimal places
+2026-03-24 19:43:31.840 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.842 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.844 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.845 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.845 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.846 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.847 [main] INFO  model.Reporter - Report includes 1 outlier(s)
+2026-03-24 19:43:31.847 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.849 [main] DEBUG model.Reporter - Generating statistics report for 0 values
+2026-03-24 19:43:31.850 [main] WARN  model.Reporter - getNumberArrayString() called on empty array
+2026-03-24 19:43:31.850 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.851 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.851 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.852 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.852 [main] DEBUG model.Reporter - Formatting 2 statistic pairs with 2 decimal places
+2026-03-24 19:43:31.852 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.853 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.853 [main] WARN  model.Reporter - getNumberArrayString() called on empty array
+2026-03-24 19:43:31.854 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.854 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.854 [main] DEBUG model.Reporter - Formatting 1 statistic pairs with 2 decimal places
+2026-03-24 19:43:31.855 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.856 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.857 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.857 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.857 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.858 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.859 [main] DEBUG model.Reporter - Generating statistics report for 3 values
+2026-03-24 19:43:31.860 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.861 [main] INFO  model.Reporter - Report includes 1 outlier(s)
+2026-03-24 19:43:31.861 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.862 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.862 [main] INFO  model.Reporter - Report includes 1 outlier(s)
+2026-03-24 19:43:31.863 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.864 [main] DEBUG model.Reporter - Generating statistics report for 2 values
+2026-03-24 19:43:31.866 [main] DEBUG model.Reporter - Formatting 7 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.866 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.867 [main] DEBUG model.Reporter - Statistics report generated successfully
+2026-03-24 19:43:31.867 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.868 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.868 [main] INFO  model.Stats - Stats object created with 0 values
+2026-03-24 19:43:31.868 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.868 [main] DEBUG model.Reporter - Formatting 1 statistic pairs with 4 decimal places
+2026-03-24 19:43:31.869 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.869 [main] DEBUG model.Reporter - No outliers found
+2026-03-24 19:43:31.870 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.870 [main] DEBUG model.Reporter - Formatting 3 statistic pairs with 2 decimal places
+2026-03-24 19:43:31.871 [main] INFO  model.Reporter - Reporter object created
+2026-03-24 19:43:31.871 [main] DEBUG model.Reporter - Array string truncated: 4 values omitted
+2026-03-24 19:43:31.874 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.875 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.875 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.876 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.876 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.876 [main] DEBUG model.NumPrompter - getReals() parsed 2 value(s) from input
+2026-03-24 19:43:31.877 [main] INFO  model.NumPrompter - NumPrompter created with System.in / System.out
+2026-03-24 19:43:31.877 [main] INFO  model.NumPrompter - Closing scanner
+2026-03-24 19:43:31.878 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.878 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:43:31.879 [main] DEBUG model.NumPrompter - getInts() returning 1 value(s)
+2026-03-24 19:43:31.880 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.880 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:43:31.881 [main] DEBUG model.NumPrompter - getInts() returning 3 value(s)
+2026-03-24 19:43:31.882 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.882 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.882 [main] WARN  model.NumPrompter - getReals() found no input; returning empty array
+2026-03-24 19:43:31.883 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.883 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:43:31.883 [main] DEBUG model.NumPrompter - getInts() returning 0 value(s)
+2026-03-24 19:43:31.884 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.884 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.884 [main] DEBUG model.NumPrompter - getReals() parsed 0 value(s) from input
+2026-03-24 19:43:31.885 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.886 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.887 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:43:31.887 [main] DEBUG model.NumPrompter - getInts() returning 1 value(s)
+2026-03-24 19:43:31.890 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.891 [main] INFO  model.NumPrompter - Closing scanner
+2026-03-24 19:43:31.892 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.892 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.893 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.893 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.894 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.894 [main] DEBUG model.NumPrompter - getReals() parsed 0 value(s) from input
+2026-03-24 19:43:31.894 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.894 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.894 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:43:31.895 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.895 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.895 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.896 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.896 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.896 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.897 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.897 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.898 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.898 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.898 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.899 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:43:31.899 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.899 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.899 [main] DEBUG model.NumPrompter - getReals() parsed 2 value(s) from input
+2026-03-24 19:43:31.900 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.900 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.900 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:43:31.901 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.901 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:43:31.901 [main] DEBUG model.NumPrompter - getInts() returning 2 value(s)
+2026-03-24 19:43:31.902 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.902 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.902 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.903 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.903 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.903 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input
+2026-03-24 19:43:31.904 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.904 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.904 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.905 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.905 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.905 [main] DEBUG model.NumPrompter - getReals() parsed 2 value(s) from input
+2026-03-24 19:43:31.905 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.906 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.906 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.906 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.906 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.906 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.907 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.907 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.907 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.908 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.908 [main] DEBUG model.NumPrompter - getInts() called
+2026-03-24 19:43:31.908 [main] DEBUG model.NumPrompter - getInts() returning 1 value(s)
+2026-03-24 19:43:31.909 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.909 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.909 [main] DEBUG model.NumPrompter - getReals() parsed 1 value(s) from input
+2026-03-24 19:43:31.910 [main] INFO  model.NumPrompter - NumPrompter created with injected streams
+2026-03-24 19:43:31.910 [main] DEBUG model.NumPrompter - getReals() called
+2026-03-24 19:43:31.910 [main] DEBUG model.NumPrompter - getReals() parsed 3 value(s) from input

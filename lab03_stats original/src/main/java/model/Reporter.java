@@ -1,19 +1,23 @@
 package model;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Class to create a statistics report (minimum, median, mean, etc.) about an
  * array of doubles.
  * 
- * Is this comment sufficient?
- * 
+ *  
  */
 public class Reporter {
 	private double[] nums;
 	private int logDecimalPlaces = 4;
 
+	private static final Logger logger = LoggerFactory.getLogger(Reporter.class);
+
 	public Reporter() {
 		nums = new double[0];
+		logger.info("Reporter object created");
 	}
 	
 
@@ -24,6 +28,7 @@ public class Reporter {
 	 * @return - Formatted report.
 	 */
 	public String reportStatistics() {
+		logger.debug("Generating statistics report for {} values", nums.length);
 		Stats stats = createStats(nums);
 
 		// Build the report with a StringBuilder
@@ -51,6 +56,7 @@ public class Reporter {
 		// Separator line
 		outputBuilder.append("\n" + separatorLine() + "\n");
 
+		logger.debug("Statistics report generated successfully");
 		return outputBuilder.toString();
 	}
 
@@ -88,6 +94,8 @@ public class Reporter {
 	 * @return - The resulting formatted string.
 	 */
 	String formattedStatValuePairs(StatisticPair[] pairs, int valueDecimalPlaces) {
+		logger.debug("Formatting {} statistic pairs with {} decimal places", pairs.length, valueDecimalPlaces);
+
 		// Create two arrays of labels and their values
 		String[] statLabels = new String[pairs.length];
 		double[] values = new double[pairs.length];
@@ -138,8 +146,10 @@ public class Reporter {
 	 */
 	String outliers(double[] outliers) {
 		if (outliers.length > 0) {
+			logger.info("Report includes {} outlier(s)", outliers.length);
 			return "Outliers: " + getNumberArrayString(outliers, 72);
 		} else {
+			logger.debug("No outliers found");
 			return "No outliers.";
 		}
 	}
@@ -155,6 +165,11 @@ public class Reporter {
 	 * @return - String of the array's doubles
 	 */
 	String getNumberArrayString(double[] numberArray, int lengthLimit) {
+		if (numberArray.length == 0) {
+			logger.warn("getNumberArrayString() called on empty array");
+			return "";
+		}
+
 		// Build output string with a StringBuilder
 		StringBuilder outputBuilder = new StringBuilder();
 
@@ -187,6 +202,7 @@ public class Reporter {
 
 				if (outputBuilder.length() + remainingValuesStringBuilder.length() > lengthLimit) {
 					// String needs to be truncated.
+					logger.debug("Array string truncated: {} values omitted", amountRemaining);
 					return outputBuilder.toString() + amountRemainingString;
 				} else {
 					// Truncation is not needed.
